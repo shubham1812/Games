@@ -22,3 +22,7 @@
  We have also used Laplace Smoothening to avoid divide by zero error.
  
  The accuracy on the given training and test data is 66.0%
+
+How to run :
+
+./a2.py training-file testing-file output-file
