@@ -1,3 +1,7 @@
+
+Please see the Description.pdf file for the game description
+
+betsy.py is an AI game playing bot and below is the implementation details.
 #1. We needed to search the state space for the best possible move for the game based on the valid moves i.e. dropping a pebble in the column or rotate a column if N > 1. So, for this we defined a successor function which gives us all the valid possible moves for a given state, goal function which will tell us of if we have won the game for a state and a evaluation function which will give us a value based on the conditions of a current state.
 
 #2. State space: It consists of all the possible states with an array of length N. It should only contain pebble (o), (x) and (.) such that the number of pebbles is atmost n(n+3)/2 in any given board.
