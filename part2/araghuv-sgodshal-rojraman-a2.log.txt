@@ -1,0 +1,2 @@
+Accuracy: 3.2%
+Atlanta,_GA: {'hiring': 66, 'job': 67, 'careerarc': 35, 'ca': 33, 'new': 33}
